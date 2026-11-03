@@ -2036,3 +2036,26 @@ section,
     max-width: none;
   }
 }
+/* About Section Alignment */
+.about .content {
+  text-align: justify;
+}
+
+.about .content h3,
+.about .content h5 {
+  text-align: left;
+}
+
+.about .content p {
+  text-align: justify;
+}
+
+.about .row {
+  align-items: center;
+}
+
+.about img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
