@@ -2087,3 +2087,83 @@ section,
     width: 100%;
     height: 100%;
 }
+
+.portfolio .portfolio-content img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+/* Paragraf dan deskripsi rata kanan-kiri */
+body p,
+body li,
+body .description,
+body .faq-content {
+  text-align: justify;
+}
+
+/* Bagian yang harus tetap rata tengah */
+.hero p,
+.section-title p,
+.call-to-action p {
+  text-align: center;
+}
+
+/* Judul, navigasi, dan tombol tetap mengikuti desain asli */
+h1, h2, h3, h4, h5, h6,
+nav,
+button,
+.btn,
+a {
+  text-align: inherit;
+}
+/* Perbaikan Footer */
+.footer {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+/* Mengurangi jarak bagian atas footer */
+.footer .footer-top {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* Mengatur kotak hak cipta */
+.footer .copyright {
+  margin-top: 10px !important;
+  padding: 15px 0;
+  text-align: center !important;
+}
+
+/* Membuat tulisan hak cipta berada di tengah */
+.footer .copyright p {
+  text-align: center !important;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+/* Mengatur tulisan pembuat website */
+.footer .copyright .credits {
+  text-align: center !important;
+  margin-top: 5px;
+}
+/* Logo PT Garam pada Header */
+.logo-perusahaan {
+  height: 45px;
+  width: auto;
+  object-fit: contain;
+  margin-right: 12px;
+}
+
+/* Menjaga tulisan sejajar dengan logo */
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo h1 {
+  margin-bottom: 0;
+}
